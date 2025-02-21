@@ -1,0 +1,16 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabCompletion": "on",
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.validation.template": false,
+  "volar.autoCompleteRefs": true,
+  "volar.takeOverMode.enabled": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
