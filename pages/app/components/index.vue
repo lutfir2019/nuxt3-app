@@ -7,9 +7,10 @@ definePageMeta({
   layout: "custom",
 });
 
-const selectedDate = ref(new Date());
+const selectedDate = ref<Date | undefined>();
 
 onMounted(() => {
+  selectedDate.value = new Date();
   useBreadcrumbStore().set([
     { label: "Components", icon: "iconamoon:component" },
   ]);
