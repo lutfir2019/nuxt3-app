@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from "vue";
 import moment from "moment";
+import { computed } from "vue";
 import DatePicker from "./DatePicker.vue";
 
 interface Props {
@@ -31,7 +31,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 const emit = defineEmits<{
   "update:modelValue": [date: Date];
-  change: [date: Date];
+  "change": [date: Date];
 }>();
 
 const localDate = computed({
@@ -51,7 +51,7 @@ const formattedDate = computed(() => {
   <ClientOnly>
     <UPopover :popper="{ placement }">
       <UButton
-        :icon="'i-heroicons-calendar-days-20-solid'"
+        icon="i-heroicons-calendar-days-20-solid"
         :label="label || formattedDate"
         :disabled="disabled"
       />

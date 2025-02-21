@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from "vue";
 import { useBreadcrumbStore } from "@/stores/breadcrumb";
+import { computed } from "vue";
 
 const breadcrumbStore = useBreadcrumbStore();
 const links = computed(() => breadcrumbStore.links);

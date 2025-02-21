@@ -2,8 +2,6 @@
 import ColorMode from "./custom-component/ColorMode.vue";
 
 const { toggle } = useSidebar();
-
-
 </script>
 
 <template>
@@ -22,8 +20,6 @@ const { toggle } = useSidebar();
       <NuxtLink to="/app" class="hidden md:block">
         <h1 class="text-lg font-bold">Nuxt App</h1>
       </NuxtLink>
-
-
       <ColorMode />
     </div>
   </div>
