@@ -19,7 +19,9 @@ onMounted(() => {
 
 <template>
   <div class="space-y-2">
-    <div>{{ moment(selectedDate).format("DD MMMM yyyy HH:mm") }}</div>
+    <div v-if="Boolean(selectedDate)">
+      {{ moment(selectedDate).format("DD MMMM yyyy HH:mm") }}
+    </div>
     <DatePopover v-model="selectedDate" @change="(e) => console.warn(e)" />
   </div>
 </template>
