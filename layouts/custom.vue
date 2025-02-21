@@ -40,7 +40,7 @@ const links = computed(() => breadcrumbStore.links);
     </div>
 
     <!-- Footer -->
-    <footer class="w-full shadow py-3 text-center mt-auto">
+    <footer class="w-full py-2 shadow text-center mt-auto md:pl-64">
       <FooterApp />
     </footer>
   </div>
