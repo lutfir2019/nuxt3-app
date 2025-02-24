@@ -6,6 +6,6 @@
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
-    "types": ["@nuxt/types"]
+    "types": ["@types/node", "@nuxt/types"]
   }
 }
