@@ -4,7 +4,7 @@ const { logout } = useAuthStore();
 
 <template>
   <div class="w-full">
-    <hr class="border-gray-800 mb-4 hidden md:block">
+    <UDivider class="mb-4 hidden md:block" />
 
     <UPopover :popper="{ placement: 'top' }">
       <UButton
