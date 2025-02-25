@@ -16,8 +16,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage page-key="static" />
-    <UNotifications />
-  </NuxtLayout>
+  <div>
+    <NuxtLayout>
+      <NuxtPage page-key="static" />
+      <UNotifications />
+    </NuxtLayout>
+  </div>
 </template>
